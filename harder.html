@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <link rel="stylesheet" type="text/css" href="style2.css"/>
+     <meta charset="utf=8">
+       <title>Guess That Number 2.0</title>
+    
+  </head>
+  <body>
+      <a href="index.html" onmouseover="sound.play()" target="_blank">Easier Version?</a>
+      <div class="container">
+    <h1>Guess That Number Game: 2.0</h1>
+    
+       <p id=sep>The computer will choose a random number from 10-100. The numbers are chosen from a given set of 10,20,30,40,50,60,70,80,90,100. Beteen each 10 numbers, a random number is also chosen. You have to decide whether the computer has chosen a multiple of 10 listed above, or a random number from each category, such as 21, 32, 46, 58,etc...You have 6 tries.<br><br>
+    
+        
+       <div class="form">
+         <label for="guessBox">Enter a guess: </label><input type="text" id="guessBox" class="guessBox"/>
+         <input type="submit" value="Submit guess" class="guessInput"/>
+       </div>
+       
+      <div class="paraResult">
+          <p class="tries"></p>
+          <p class="lastAnswer"></p>
+          <p class="ansRange"></p>
+        
+      </div>
+       
+    </div>
+</body>
+
+   <script type="text/javascript" src="test2.js"></script>
+</html>

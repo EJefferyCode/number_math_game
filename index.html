@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link rel="stylesheet" type="text/css" href="style.css"/> 
+      <meta charset="utf-8">
+        <title>Guess That Number</title>   
+    </head>
+    <body>
+        <a href="harder.html" onmouseover="sound.play()" target="_blank">Harder Version?</a>
+        <div class="container">
+      <h1>Guess That Number Game</h1>
+        
+         <p id="sep">We have selected a random number between 1 and 50. See if you can guess it in 10 turns or less. We'll tell you whether your choice was correct or not, and whether your guess was too high, or too low.</p><br><br>
+        
+        
+        <div class="form">
+            <label for="guessField">Enter a guess: </label><input type="text" id="guessField" class="guessField"/>
+            <input type="submit" value="Submit guess" class="guessSubmit"/>
+        </div>
+        
+        <div class="resultParas">
+          <p class="guesses"></p>
+          <p class="lastResult"></p>
+          <p class="lowOrHi"></p>
+        
+        
+        </div>
+      </div>  
+        
+    </body>
+    <script type="text/javascript" src="test.js"></script>
+</html>
